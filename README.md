@@ -10,7 +10,7 @@ or
 `cp .env.example .env`
 
 # *** IMPORTANT: Create your database before running migrations ***
- `Example (MySQL):`
+ Example (MySQL):
  `mysql -u your_db_user -p`
  `CREATE DATABASE your_database_name;`
 
@@ -25,4 +25,4 @@ Then update your .env file with the correct DB_DATABASE, DB_USERNAME, and DB_PAS
 
 
 # Run Laravel + React Inertia App
-composer run dev
+`composer run dev`
